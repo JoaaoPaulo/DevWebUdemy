@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>Tabelas</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h2>Produtos</h2>
+
+        <!--Tabelas-->
+
+        <table border="2" width="100%">
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td>R$ 2.150,00</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$ 999,99</td>
+            </tr>
+
+            <!--Mesclando colunas-->
+
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">cupom1 -R$ 10</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">cupom2 -R$ 12</td>
+            </tr>
+
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$ 3.478,98</td>
+            </tr>
+
+        </table>
+
+            <br>
+
+         <!--Podemos adicionar imagens na tabela usando a tag <img>, e links usando a tag de link <a>-->
+
+        <table border="2" width="100%">
+            <tr>
+                <td>Codigo</td>
+                <td>Produto</td>
+                <td>Preço</td>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td><img src="Imagens/shikamaru.png" alt="" width="200"></td>
+                <td>R$ 100,00</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td><a href="https://www.kabum.com.br/gamer/playstation-4" target="_blank">PS4</a></td>
+                <td>R$ 1500,00</td>
+            </tr>
+        </table>
+       
+    </body>
+
+</html>

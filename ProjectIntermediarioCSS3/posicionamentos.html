@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamentos (static - padrão, relative, absolute, fixed)</title>
+
+    <style type="text/css">
+
+        body {
+            background: #007fc7;
+        }
+
+        #container {
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+            position: relative;
+        }
+
+        
+
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: fixed;
+            top: 0px;
+            margin: 0px;
+        }
+
+        .absolute {
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute; /*remove do fluxo natural da pagina baseando e se alinhando em relação ao body*/
+            top: 80px;
+            right: 80px;
+
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative; /* relativo a sua ultima posição*/
+            /* top, right, bottom, left */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p>P1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p class="fixed">P2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+        
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+
+        <p>P3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores consequuntur quasi commodi exercitationem perferendis vitae, sed aliquam rerum natus facere sapiente. Libero deserunt architecto optio nesciunt consequuntur voluptatibus provident voluptas.</p>
+    </div>
+    
+</body>
+</html>
